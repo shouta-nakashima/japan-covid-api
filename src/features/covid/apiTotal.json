@@ -1,0 +1,10 @@
+{
+  "date": 20200523,
+  "pcr": 272095,
+  "hospitalize": 2450,
+  "positive": 17248,
+  "severe": 178,
+  "discharge": 13895,
+  "death": 821,
+  "symptom_confirming": 40
+}
