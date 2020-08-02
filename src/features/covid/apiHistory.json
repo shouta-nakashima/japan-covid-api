@@ -1,0 +1,12 @@
+[
+  {
+    "date": 20200521,
+    "pcr": 265190,
+    "hospitalize": 2917,
+    "positive": 17136,
+    "severe": 199,
+    "discharge": 13323,
+    "death": 790,
+    "symptomConfirming": 64
+  }
+]
