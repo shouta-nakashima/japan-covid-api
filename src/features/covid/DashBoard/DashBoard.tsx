@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme: Theme) =>
       border: '2px solid #000',
       boxShadow: theme.shadows[5],
       padding: theme.spacing(2, 4, 3),
-      width: '80%'
+      width: '80%',
     },
     title: {
       flexGrow: 1,
@@ -45,7 +45,8 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     buttons: {
       textAlign: 'center'
-    }
+    },
+    
   }),
 );
 
@@ -166,8 +167,7 @@ const DashBoard: React.FC = () => {
       >
         <Fade in={open2}>
           <div className={classes.paper}>
-            
-            <RadarPrefecture />
+            <RadarPrefecture/>
           </div>
         </Fade>
       </Modal>
